@@ -1,0 +1,54 @@
+body {
+    background-image: url("images/seoul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+    font-size: 70px;
+    text-decoration: none;
+    text-align: center;
+    color: snow;
+}
+
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: snow;
+}
+
+ul {
+    list-style-type: none;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 20px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px;
+    color: snow;
+    font-size: 25px;
+}
+
+li a:visited {
+    color: snow;
+}
+
+li a:hover {
+    color: silver;
+}

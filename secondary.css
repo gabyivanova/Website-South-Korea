@@ -1,0 +1,61 @@
+body {
+    background-image: url("images/iksan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+    font-size: 60px;
+    text-decoration: none;
+    text-align: left;
+    color: snow;
+}
+
+ul {
+    list-style-type: none;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 20px;
+    padding: 0;
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px;
+    color: snow;
+    font-size: 25px;
+}
+
+li a:visited {
+    color: snow;
+}
+
+li a:hover {
+    color: silver;
+}
+
+#text p {
+    margin-top: 80px;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    float:left;
+    text-align: justify;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    margin-left: 500px;
+}
